@@ -1,0 +1,27 @@
+@import "../../Resources/Variables.scss";
+$footer-height: 80px;
+    .footer{
+        position: fixed;
+         bottom: 0;
+    .grid-container{
+        
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    color: $color-text;
+    margin:0%;
+    font-family: 'Open Sans Condensed', sans-serif;
+     
+    }
+    .grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 2% ;
+    font-size: 17px;
+
+    }
+    .middle{
+        
+        grid-column:1 ;
+    }
+}

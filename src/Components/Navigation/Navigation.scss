@@ -1,0 +1,43 @@
+@import "../../Resources/Variables.scss";
+
+$navigation-height: 80px;
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: $navigation-height;
+  overflow: auto;
+  background-color: $color-navigation;
+  z-index: 20;
+
+  .logo {
+    img {
+      height: $navigation-height - 25px;
+    }
+  }
+
+  .menu {
+    a {
+      display: inline-block;
+      line-height: $navigation-height;
+      padding: 0 10px;
+      font-size: 1rem;
+      color: $color-text;
+      &:hover {
+        text-decoration: underline; 
+        color: $color-active;
+      }
+    }
+    .active {
+      color: $color-active;
+    }
+  }
+}

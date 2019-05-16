@@ -1,0 +1,39 @@
+@import "../../Resources/Variables.scss";
+.body{
+    color:  $color-text;
+}
+.grid-container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    color: $color-text;
+    margin:8%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+.grid-container > div {
+    background-color:$color-background;
+    text-align: center;
+    margin:10%;
+    padding: 2% ;
+    font-size: 17px;
+}
+.profilbild{
+    grid-column: 1 / 2;
+    img{
+        width: 500px;
+        
+    }
+    
+}
+.Start-Text{
+    grid-column: 2 / 2;
+    h1{
+        vertical-align: middle;
+        color:black;
+    }
+    p{
+        vertical-align: center;
+    }
+}
+
