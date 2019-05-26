@@ -11,23 +11,21 @@ class Gallery extends Component {
                 <div className="grid-container">
                     
                     <div className="image1">
-                    <img src="/Images/IMG_6881.jpg" alt="picture"/>
-                    <div className="middle">
-                            <div className="text">Vancouver 2016</div>
-                            <button>Read more</button>
-                        </div>
+                        
+                        <img src="/Images/dragons.jpg" alt="vancouver"/>
+                            <h2>UDHC</h2>
+                            <h3>Photoshop/Illustraitor</h3>
+                            
                     </div>
                     <div className="image2">
-                        <img src="/Images/IMG_5934.jpg" alt="pic"/>
-                        <div className="middle">
-                            <div className="text">AIK Fotboll</div>
-                        </div>
+                        <img src="/Images/gallery_square.jpg" alt="aik"/>
+                            <h2>Brawl Gaming</h2>
+                            
                     </div>
                     <div className="image3">
-                        <img src="/Images/IMG_6693.jpg" alt="tete"/>
-                        <div className="middle">
-                            <div className="text">Go to sport gallery</div>
-                        </div>
+                        <img src="/Images/gallery_square.jpg" alt="aik"/>
+                        <h2>Photo Gallery</h2>
+                        
                     </div>
                 </div>
             </div>

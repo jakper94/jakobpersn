@@ -20,11 +20,8 @@
 }
 .profilbild{
     grid-column: 1 / 2;
-    img{
-        width: 500px;
-        
-    }
-    
+    align-items: center;
+    width:70%;
 }
 .Start-Text{
     grid-column: 2 / 2;

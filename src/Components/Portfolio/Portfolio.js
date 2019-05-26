@@ -1,36 +1,35 @@
 import React, {Component} from 'react'
+import { NavLink } from "react-router-dom";
 import "./Portfolio.scss"
 class Portfolio extends Component {
     render(){
     return (
    <div>
    <div className="header-info">
-   <img src="/Images/IMG_6881.jpg" alt="vancouver"/>
+   <img src="/Images/IMG_6881_1.jpg" alt="vancouver"/>
         <div className="header-text">
        
-        <h1>My projects</h1>
-        <p>Here you can find some of my projects I have done and that is still in progress</p>
+        <h1>Portfolio</h1>
+        <p>Here you can find some of my projects I have done and that is still in progress. The projects are related to UX/UI-design 
+            and programing. I try to make the desing simplistic. </p>
         </div>
     </div>
       <div className="grid-container">
           
           <div className="project1">
-                <div className="text">
-                    <h2>Umeå Dragons Social media</h2>
-                    <p>One of my ongoing sideproject is working with the local hockey club Umeå Dragons Social media. 
-                        That means that I do all the posts on instagram and facebook, by using Photoshop and inspiration from other 
-                        sport sites. 
-                    </p>
-                </div>
-
-          </div>
-          <div className="image-1">
+          <NavLink to={`/project1/`}>
           <img src="/Images/Udhc_1.jpg" alt="Umeå dragons i"/>
+          
+          </NavLink>
+          <h1>UDHC</h1>
           </div>
-          </div> 
-
-
-        
+          <div className="Project2">
+          <img src="/Images/brawlgaming_xd.jpg" alt="brawlgaming"/>
+          </div>
+          <div className="project3">
+              <img src="/Images/Alpens_spa_och_bubbel_svart.png" alt="logga"/>
+          </div>
+    </div>    
    </div>
     )};
 };

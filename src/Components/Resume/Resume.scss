@@ -1,1 +1,55 @@
 @import "../../Resources/Variables.scss";
+$logo-size:13%;
+
+.resume{
+    .body{
+        position: relative;
+    
+    }
+    
+    .grid{
+        width:100%;
+        text-align:center;
+        display: grid;
+        grid-template: 1fr 1fr;
+        > div {
+          
+          text-align: center;
+          padding: 2%;
+          
+          }
+          .education{
+            grid-column: 1/ span 2;
+            background-color:$color-background-2;
+            text-align:center;
+            img{
+                width:$logo-size;
+            }
+            
+        }
+        .work-experience{
+            grid-column: 1/span 2;
+            img{
+                width:$logo-size;
+            
+            }
+                
+            text-align:center;
+        }
+          .text-1{
+              grid-column: 1/span 2;
+              background-color:$color-background-2;
+          }
+        .experiences-left{
+            grid-column: 1;
+            background-color:$color-background-2; 
+            vertical-align: middle;
+            
+        }
+        .excperience-right{
+            grid-column: 2;
+            background-color:$color-background-2; 
+            vertical-align: middle;
+        }
+    }
+}

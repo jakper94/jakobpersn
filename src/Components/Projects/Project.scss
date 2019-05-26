@@ -1,0 +1,47 @@
+@import "../../Resources/Variables.scss";
+.body{
+    color:  $color-text;
+}
+$imageWidth: 100%; 
+.project-grid{
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+        grid-gap: 8px;
+    color: $color-text;
+    background: $color-background;
+    margin:5%;
+    
+    > div {
+        background-color:$color-background;
+        text-align: center;
+        margin:10%;
+        padding: 2% ;
+        font-size: 17px;
+    }
+    img{
+        width:$imageWidth;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .intro{
+        background-color: beige;
+        grid-column: 1/ span 3;   
+    }
+    .imageholder1{
+        grid-column: 1;
+        
+    }
+    .textholder1{
+        grid-column: 2/span 2;
+    }
+    
+    .textholder2{
+        grid-column: 1/span 2;
+    }
+    .imageholder2{
+        grid-column: 3;
+         
+    }
+    .imageholder3{
+        grid-column: 1;
+    }
+}
