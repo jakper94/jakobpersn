@@ -3,9 +3,9 @@ import "./IntroText.scss";
 class IntroText extends Component {
     render(){
         return(
-            <div classname="introText">
+            <div className="introText">
             <h2>I am!</h2>
-            <h3></h3>
+            <h3>kfkf</h3>
         
             </div>  
         )
